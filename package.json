@@ -1,0 +1,16 @@
+{
+  "name": "teamdash",
+  "version": "0.0.1",
+  "description": "A command line tool for lead developers to measure team preformances",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Eden <dan.eden@me.com> (https://daneden.me)",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.8.21"
+  }
+}
