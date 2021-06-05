@@ -202,6 +202,7 @@ setInterval(function(){
      '# Reduce unused CSS : ' + unused_css_rules +
      '\n'+
      '# Minimizes main-thread work: ' + mainthread_work +
+     '\n'+
      '### Consider reducing the time spent parsing, compiling and executing JS. You may find delivering smaller JS payloads helps with this. [Learn more](https://web.dev/mainthread-work-breakdown/) '
      )
     screen.render()
